@@ -7,7 +7,7 @@ fetch("https://kken007.github.io/advice-generator-app-main/advice.json")
     function typeText(index) {
         document.querySelector(".change-advice").style.display = "none";
         if ( index < text.length ) {
-            document.querySelectohr(".advice").innerHTML += text[index];
+            document.querySelector(".advice").innerHTML += text[index];
             setTimeout(() => typeText( index + 1 ), 50);
         }
         else {
