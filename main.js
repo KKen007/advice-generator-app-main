@@ -1,4 +1,4 @@
-fetch("https://github.com/KKen007/advice-generator-app-main/blob/main/advice.json")
+fetch("https://kken007.github.io/advice-generator-app-main/advice.json")
 .then( response => response.json())
 .then( advice => {
 
